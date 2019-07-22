@@ -22,6 +22,7 @@
   <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css" media="all">
 
   {#  <!-- favicon -->#}
+  
   {#  <link rel="shortcut icon" href="{% static 'favicon.ico' %}" type="image/x-icon"/>#}
 
   <!-- custom javascript -->
@@ -32,7 +33,9 @@
 
 <body>
 <div class="container-fluid">
+  
   {% block content %}{% endblock %}
+  
 </div>
 
 {% block extra_script %}{% endblock %}
